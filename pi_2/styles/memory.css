@@ -1,0 +1,15 @@
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 100px 100px;
+}
+
+#play {
+	/*border: 1px solid red;*/
+	font-size: 30px;
+	text-align: center;
+	max-height: 10%; 
+	max-width: 100%;
+	font-size: 16px;
+	align-self: center;
+}

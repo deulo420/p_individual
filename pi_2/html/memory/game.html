@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<link rel="stylesheet" href="../../styles/main.css">
+		<script src="../../js/game_controller.js"></script>
+		<script src="../../js/loader.js"></script>
+		<title> My first game - Game </title>
+	</head>
+	<body>
+		<p id="title">Memory</p>
+		<div class="container">
+			<div class="menu-object">
+				<img src="../../resources/cb.png" onclick="items[0].do_click()">
+				<img src="../../resources/tb.png" onclick="items[1].do_click()">
+				<img src="../../resources/tb.png" onclick="items[2].do_click()">
+				<img src="../../resources/cb.png" onclick="items[3].do_click()">
+			</div>
+		</div>
+		<div class="menu-object" id="play">			
+			<button onclick="location.href='../../index.html'">
+				<span>EXIT</span>
+				<svg viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
+				  <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0"/>
+				</svg>
+			</button>				  
+		</div>
+
+	</body>
+</html>

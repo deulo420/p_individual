@@ -1,24 +1,32 @@
 <!DOCTYPE html> 
 <html>
 	<head>
+		<!--<link rel="stylesheet" href="../../styles/memory.css">-->
+		
 		<link rel="stylesheet" href="../../styles/main.css">
 		<script src="../../js/loader.js"></script>
-		<script src="../../Jº"></script>
 		<script src="../../js/game_info.js"></script>
 		<script src="../../js/menu_controller.js"></script>
 		<title> My first game - Menu </title>
 	</head>
 	<body>
-		<p class="menu-object" id="title">Memory menu</p>
-		<button class="menu-object" onclick="start_game()"> 
-			StarSt Game 
-		</button>
-		<button class="menu-object" onclick="options()"> 
-			Options 
-		</button>
-		<button class="menu-object" onclick="exit()"> 
-			Exit 
-		</button>
+		<div class="container">
+			<div class="menu-object">
+				<h1> MEMORY <span> game </span> </h1>			
+			</div>
+			
+			<div class="menu-object" id="play" onclick="start_game()"> 				
+				<img class="imgg" src="../../resources/xx.webp">
+			</div>
+			<div class="menu-object" id="config" onclick="options()"> 				
+				<img class="imgg" src="../../resources/gear.jpg">
+			</div>
+			
+			<div class="menu-object" id="exit" onclick="exit()"> 				
+				<img class="imgg" src="../../resources/back.webp">
+			</div>
+			
+		</div>				
 	</body>
 </html>
 

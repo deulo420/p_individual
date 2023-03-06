@@ -1,6 +1,6 @@
 function start_game(){
 	name = prompt("User name");
-	loadpage("../game.html");
+	loadpage("../memory/game.html");
 }
 
 function exit (){
